@@ -14,17 +14,24 @@ To write a program to find the square root of a number.
 4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
 5. Return number
 
-## Program:
+## Program:def newton_method(number,number_iters=100):
+    a=float(number)
+    for i in range(number_iters):
+        number=0.5*(number+a/number)
+    return number
+a=int(input())
+print("Square root of the number:",newton_method(a))
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by:MUKESH P 
+RegisterNumber: 22008456 
 */
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![EX02 B OP](https://user-images.githubusercontent.com/119393818/213912991-655c1a68-5446-49c0-af89-ddfc93dbc10a.png)
+
 
 
 ## Result:
